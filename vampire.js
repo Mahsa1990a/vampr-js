@@ -32,9 +32,6 @@ class Vampire {
 
   //4 Returns true if this vampire is more senior than the other vampire. (Who is closer to the original vampire)
   isMoreSeniorThan(vampire) {
-<<<<<<< HEAD
-    return this.creator < vampire.creator;
-=======
     return this.numberOfVampiresFromOriginal < vampire.numberOfVampiresFromOriginal;
   }
 
@@ -54,7 +51,6 @@ class Vampire {
       }
     }
     return null;
->>>>>>> traversal
   }
 
   //7 Returns the total number of vampires that exist
